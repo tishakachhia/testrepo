@@ -1,14 +1,17 @@
-import Header from "./componets/layout/Header"
+import React from 'react'
+
+import Header from './componects/layout/header'
+import Home from './componects/pages/home'
 
 
-<html lang="en">
-<head>
+export default function App() {
+  return (
+    <div>
+      <button>click me</button>
+      <Header/>
+      <Home/>
+    </div>
+    
+  );
   
-  <title>Document</title>
-</head>
-<body>
-  <Header/>
-  <h1>hello</h1>
-  
-</body>
-</html>
+}
