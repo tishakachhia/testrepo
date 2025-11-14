@@ -1,14 +1,14 @@
+import Header from "./componets/layout/Header"
 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   
   <title>Document</title>
 </head>
 <body>
+  <Header/>
   <h1>hello</h1>
-  
   
 </body>
 </html>
