@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from './componects/layout/header'
 import Home from './componects/pages/home'
-import {ToastContainer,toasty} from 'react-toastify'
+import {ToastContainer,toast} from 'react-toastify';
 
 export default function App() {
   return (
@@ -11,17 +11,24 @@ export default function App() {
       <Header/>
       <Home/>
       
+      
     </div>
     
   );
   
 }
-
-function toast() {
+function Toast() {
   
-  toast.error('error')
-  <button onclick ={Toast}>Click me</button>
-  <ToastContainer/>
+  toast.error('error');
+  return(
+    <>
+    <button onClick={Toast}>Clickme</button>
+
+    <ToastContainer/>
+   </>
+  );
 }
+
+
 
 
