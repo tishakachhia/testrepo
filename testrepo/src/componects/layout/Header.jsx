@@ -7,15 +7,13 @@ export default function Header() {
         <div className="header">
                 <div className="header-logo"> 
 
-                     <img src={logo} alt="" />
+                  <img src={logo} alt="" />
 
                 </div>
                 <div className="navbar">
-                    <ul>
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                    </ul>
+                  <link to="/">Home</link>
+                  <link to="/about">About</link>
+                    
                 </div>
         </div>
 
