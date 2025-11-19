@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header from './componects/layout/header'
+import Header from './componects/layout/Header'
 import Home from './componects/pages/home'
 import About from './componects/pages/About'
 import {ToastContainer,toast} from 'react-toastify'
